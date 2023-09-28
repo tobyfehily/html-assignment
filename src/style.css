@@ -41,6 +41,10 @@ h5 {
     font-size: .8rem;
 }
 
+p {
+    margin-bottom: 1rem;;
+}
+
 ul {
     margin-bottom: 2rem;
     list-style-type: none 
@@ -58,12 +62,11 @@ a {
 }
 
 hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
     color: #3D405B;
     width: 100%;
+    margin: .5rem 0 1.5rem 0;
  }
-
+ 
 .keyword, .work-content h4 {
     color:#FF7F50;
 }
@@ -168,21 +171,19 @@ footer {
 #blog {
     display: flex;
     flex-wrap: wrap;
+    align-items: start;
     padding: .5rem;
 }
 
 .blog-post {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 2rem;
 }
 
 .blog-image {
     height: auto;
     max-width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
  .blog-title {
@@ -199,7 +200,6 @@ footer {
  }
 
 
-
 /* || WORK PAGE STYLES */
 
 #pdf-link {
@@ -210,7 +210,8 @@ footer {
     font-weight: bold;
     text-align: center;
     padding: .75rem;
-    margin: 1rem;
+    max-width: 491px;
+    margin: 2rem auto 2rem auto;
 }
 
 
@@ -232,8 +233,6 @@ footer {
     #logo, #title {
         flex: 100%;
     } 
-
-
  }
 
  /* Tablet */
@@ -286,13 +285,21 @@ footer {
     .about-content {
         flex: 2;
     }
-     
-    .blog-title {
-        order: -2;
+         
+    .blog-image {
+        align-self: start;
+        max-width: 40%;
+        flex: 40%;
+        padding: 1rem;
+    } 
+
+    .blog-content {
+        flex: 60%;
     }
 
-    .blog-date {
-        order: -1;
+    #work {
+        max-width: 491px;
+        margin: 0 auto 0 auto;
     }
  }
  
@@ -307,7 +314,7 @@ footer {
     #logo {
         display: none;
     }
-
+   
     #title h1 {
         margin-top: 1rem;
         font-size: 4rem;
@@ -330,15 +337,7 @@ footer {
         flex-direction: row;
         justify-content: space-around;
     }
-   
-    .blog-title {
-        order: -2;
-    }
-
-    .blog-date {
-        order: -1;
-    }
-
+          
     #about > * {
         flex: 1;
         margin: 1rem;
@@ -356,12 +355,26 @@ footer {
         width: 100%
     }
 
-     .work-title {
+    .work-title {
         width: 25%;
     }
 
     .work-content {
         width: 75%;
     }
+
+    #pdf-link {
+        max-width: 75%;
+        ;
+    }
  
+    .blog-image {
+        max-width: 100%;
+    } 
+
+    .blog-post {
+        flex: 50%;
+        padding: 1rem;
+    }
+
 }
