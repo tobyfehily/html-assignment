@@ -286,17 +286,7 @@ footer {
     .about-content {
         flex: 2;
     }
-
-    #work {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%
-    }
-
-    #work > * {
-        width: 50%
-    }
-    
+     
     .blog-title {
         order: -2;
     }
@@ -359,15 +349,19 @@ footer {
         display: inline-block;
         padding-bottom: 2rem;
     }
-
+  
     #work {
         display: flex;
         flex-wrap: wrap;
         width: 100%
     }
 
-    #work > * {
-        width: 50%
+     .work-title {
+        width: 25%;
+    }
+
+    .work-content {
+        width: 75%;
     }
  
 }
