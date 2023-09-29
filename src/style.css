@@ -55,6 +55,7 @@ li {
     
 }
 
+/* Component: Text link */
 a {
     text-decoration: none;
     color:#FF7F50;
@@ -67,6 +68,7 @@ hr {
     margin: .5rem 0 1.5rem 0;
  }
  
+ /* Component: Keyword */
 .keyword, .work-content h4 {
     color:#FF7F50;
 }
@@ -108,6 +110,7 @@ nav img {
     width: 2rem;
 }
 
+/* Component: Nav text */
 nav li {
     color: #393E41;
     font-family: 'League Spartan', sans-serif;
@@ -121,6 +124,7 @@ nav a {
     color: #393E41;
 }
 
+/* Component: Active and hover nav "hand-drawn" underline */
 nav li:hover, .active-nav {
     border-bottom: 2px solid #FF7F50;
     border-bottom-left-radius: 225px 15px;
@@ -183,6 +187,7 @@ footer {
     text-align: center;
 }
 
+/* Component: Dashed border */
 #map {
     height: auto;
     width: 100%;
@@ -206,6 +211,7 @@ footer {
     flex-wrap: wrap;
 }
 
+/* Component: Rounded corners */
 .blog-image {
     height: auto;
     max-width: 100%;
@@ -219,6 +225,7 @@ footer {
     font-size: 3rem;
  }
 
+ /* Component: Blog date */
  .blog-date {
     width: 100%;
     font-family: 'League Spartan', sans-serif;
@@ -229,6 +236,7 @@ footer {
 
 /* || WORK PAGE STYLES */
 
+/* Component: PDF link */
 #pdf-link {
     background: none;
     display: block;
