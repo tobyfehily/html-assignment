@@ -377,4 +377,15 @@ footer {
         padding: 1rem;
     }
 
+    #pdf-link {
+        display: block;
+        color:#F6F7EB;
+        background-color: #FF7F50;
+        font-family: 'League Spartan', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        padding: .75rem;
+        max-width: 25%;
+        margin: 2rem auto 2rem 75%;
+    }
 }
