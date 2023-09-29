@@ -129,7 +129,7 @@ nav li:hover, .active-nav {
 
 main {
     font-family: 'Libre Baskerville', serif;
-    background-color: #F6F7EB;
+    background-color: 393E41;
     color: #393E41;
     min-height: 60vh;
     margin: 1rem;
@@ -165,6 +165,31 @@ footer {
     margin-bottom: 1rem;
     text-align: center;
  }
+
+/* || HOME PAGE STYLES */
+
+#home {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.home-section {
+    width: 100%;
+}
+
+#map-section {
+    text-align: center;
+}
+
+#map {
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    margin: 0  auto;
+}
+
 
 /* || BLOG PAGE STYLES */
 
@@ -203,6 +228,7 @@ footer {
 /* || WORK PAGE STYLES */
 
 #pdf-link {
+    background: none;
     display: block;
     color:#F6F7EB;
     background-color: #FF7F50;
@@ -270,7 +296,12 @@ footer {
         flex-direction: row;
         justify-content: space-evenly;
     }
-
+     
+    .home-section {
+        flex: 50%;
+        width: 50%;
+    }
+    
     #about > * {
         display: flex;
         margin-bottom: 3rem;
@@ -337,7 +368,29 @@ footer {
         flex-direction: row;
         justify-content: space-around;
     }
-          
+        
+    #home-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        /* align-items: space-evenly; */
+    }
+
+    #home-wrapper > * {
+        flex: 50%;
+        padding: 1rem;
+    }
+
+    #notes {
+        order: -1;
+    }
+    
+    #map {
+        height: auto;
+        width: 100%;
+        max-width: 600px;
+        margin: 0  auto;
+    }
+
     #about > * {
         flex: 1;
         margin: 1rem;
@@ -365,7 +418,6 @@ footer {
 
     #pdf-link {
         max-width: 75%;
-        ;
     }
  
     .blog-image {
@@ -386,6 +438,5 @@ footer {
         text-align: center;
         padding: .75rem;
         max-width: 25%;
-        margin: 2rem auto 2rem 75%;
     }
 }
