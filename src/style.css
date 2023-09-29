@@ -188,6 +188,7 @@ footer {
     width: 100%;
     max-width: 400px;
     margin: 0  auto;
+    border: #3D405B dashed 1px;
 }
 
 
@@ -209,6 +210,7 @@ footer {
     height: auto;
     max-width: 100%;
     margin-bottom: 1rem;
+    border-radius: 25px;
 }
 
  .blog-title {
