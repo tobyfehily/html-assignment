@@ -3,12 +3,10 @@
 ## Links
 - [Website](https://html-assignment-rif7qj82k-tobyfehily.vercel.app)
 - [GitHub repo](https://github.com/tobyfehily/html-assignment)
----
 
 
 ## Purpose
 To present myself as a dev and IT professional and provide potential employers with information about my knowledge, skills, interests and work.
----
 
 
 ## Functionality / features
@@ -25,8 +23,6 @@ It comprises the following pages:
     - A portfolio of blog posts
 
 It also features external links to my LinkedIn account and GitHub profile, as well as email.
-
----
 
 
 ## Images
@@ -85,18 +81,12 @@ It also features external links to my LinkedIn account and GitHub profile, as we
 ![Blog page desktop](/docs/images/blog-desktop.png "Blog page desktop")  
 *Blog page desktop*
 
----
-
 
 ## Target audience
 Employers with sound technical knowledge seeking to engage a developer and/or IT specialist who exhibits professionalism and a positive work ethic.
 
 Further, employers looking for candidates with a unique selling point to stand out among a broad pool of prospective employees, and employers seeking applicants who will work well with others and remain focused on the end user.
 
----
-
 
 ## Tech stack
 Built with HTML and CSS. Graphics created with [Canva](https://canva.com). Deployed on [Vercel](https://vercel.com).
-
----
