@@ -1,15 +1,32 @@
 # Portfolio Assignment T1A2 -- Toby Fehily
 
 ## Links
-- [Website](https://html-assignment-git-main-tobyfehily.vercel.app/)
+- [Website](https://html-assignment-rif7qj82k-tobyfehily.vercel.app)
 - [GitHub repo](https://github.com/tobyfehily/html-assignment)
+---
+
 
 ## Purpose
-
+To present myself as a dev and IT professional and provide potential employers with information about my knowledge, skills, interests and work.
+---
 
 
 ## Functionality / features
+The website is a mobile-first, fully responsive online portfolio, with all pages displaying all components at mobile, tablet and desktop viewport widths.
 
+It comprises the following pages:
+- Home
+    - Contact information (mobile, email, notes and location)
+- About
+    - Information about my interests (writing, ice hockey and banjo) and why they make me a good coder
+- Work
+    - A CV, with a link to a PDF version
+- Blog
+    - A portfolio of blog posts
+
+It also features external links to my LinkedIn account and GitHub profile, as well as email.
+
+---
 
 
 ## Images
@@ -68,10 +85,18 @@
 ![Blog page desktop](/docs/images/blog-desktop.png "Blog page desktop")  
 *Blog page desktop*
 
+---
+
+
 ## Target audience
 Employers with sound technical knowledge seeking to engage a developer and/or IT specialist who exhibits professionalism and a positive work ethic.
 
 Further, employers looking for candidates with a unique selling point to stand out among a broad pool of prospective employees, and employers seeking applicants who will work well with others and remain focused on the end user.
 
+---
+
+
 ## Tech stack
 Built with HTML and CSS. Graphics created with [Canva](https://canva.com). Deployed on [Vercel](https://vercel.com).
+
+---
